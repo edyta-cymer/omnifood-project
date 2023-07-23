@@ -9,13 +9,13 @@ const Footer = () => {
     <footer className="footer">
       <div className="container grid grid--footer">
         <div className="logo-col">
-          <a href="#" className="footer-logo">
+          <a href="/" className="footer-logo">
             <img src={logo} alt="omnifood logo" className="logo"></img>
           </a>
 
           <ul className="social-links">
             <li>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 <InstagramIcon
                   name="instagram-logo"
                   className="social-icon"
@@ -24,7 +24,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 <FacebookOutlinedIcon
                   name="facebook-logo"
                   className="social-icon"
@@ -33,7 +33,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="footer-link">
+              <a href="/" className="footer-link">
                 <TwitterIcon
                   name="twitter-icon"
                   className="social-icon"
