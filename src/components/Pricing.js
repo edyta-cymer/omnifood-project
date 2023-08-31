@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { purple } from "@mui/material/colors";
 import DoneIcon from "@mui/icons-material/Done";
 import CloseIcon from "@mui/icons-material/Close";
-import Features from "../components/Features"
+import Features from "../components/Features";
 
 const Pricing = () => {
   const theme = createTheme({
@@ -78,7 +78,7 @@ const Pricing = () => {
             </li>
           </ul>
           <div className="plan-sign-up">
-            <a href="#" className="btn btn--full">
+            <a href="/#" className="btn btn--full">
               Start eating well
             </a>
           </div>
@@ -138,13 +138,13 @@ const Pricing = () => {
             </li>
           </ul>
           <div className="plan-sign-up">
-            <a href="#" className="btn btn--full">
+            <a href="/#" className="btn btn--full">
               Start eating well
             </a>
           </div>
         </div>
       </div>
-      <Features/>
+      <Features />
     </section>
   );
 };

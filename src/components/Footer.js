@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container grid grid--footer">
         <div className="logo-col">
-          <a href="/" className="footer-logo">
+          <a href="/#" className="footer-logo">
             <img src={logo} alt="omnifood logo" className="logo"></img>
           </a>
 
@@ -68,22 +68,22 @@ const Footer = () => {
           <p className="footer-heading">Account</p>
           <ul className="footer-nav">
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Create account
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Sign in
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 iOS app
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Android app
               </a>
             </li>
@@ -94,22 +94,22 @@ const Footer = () => {
           <p className="footer-heading">Company</p>
           <ul className="footer-nav">
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 About Omnifood
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 For Business
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Cooking partners
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Careers
               </a>
             </li>
@@ -120,17 +120,17 @@ const Footer = () => {
           <p className="footer-heading">Resources</p>
           <ul className="footer-nav">
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Recipe directory{" "}
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Help center
               </a>
             </li>
             <li>
-              <a className="footer-link" href="#">
+              <a className="footer-link" href="/#">
                 Privacy & terms
               </a>
             </li>
